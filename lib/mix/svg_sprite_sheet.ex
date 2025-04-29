@@ -80,16 +80,11 @@ defmodule Mix.Tasks.PhoenixSvgSprites do
     if verbose, do: Logger.debug("Found SVG files: #{inspect(svg_files)}")
 
     if Enum.empty?(svg_files) do
-      {:error, "No SVG files found in specified directories"}
+      {:error, "No SVG files found in the specified location(s): #{Enum.join(dirs)}"}
     else
       {:ok, svg_files}
     end
   end
-
-  @doc """
-  Expose the default @default_config.dirs value for use in documentation
-  """
-  def default_dirs, do: @default_config.dirs
 
   defp parse_args(args) do
     {opts, _, _} =
