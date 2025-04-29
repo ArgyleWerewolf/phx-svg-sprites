@@ -21,7 +21,7 @@ defmodule PhoenixSvgSprites.MixProject do
   end
 
   defp deps do
-    [{:phoenix_live_view, "~> 0.18"}]
+    [{:phoenix_live_view, "~> 0.19"}]
   end
 
   defp package do

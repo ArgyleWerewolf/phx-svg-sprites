@@ -1,4 +1,4 @@
-defmodule ArgyleWerewolfWeb.PhoenixSvgSprites.Sprite do
+defmodule PhoenixSvgSprites.Sprite do
   @moduledoc false
   use Phoenix.Component
   alias PhoenixSvgSprites.EndpointHelper
