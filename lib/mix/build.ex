@@ -17,7 +17,7 @@ defmodule Mix.Tasks.PhoenixSvgSprites do
   require Logger
 
   @default_config %{
-    dirs: ["assets/svg_icons"],
+    dirs: ["assets/svg_sprites"],
     output_dir: "priv/static/assets/",
     output_file: "sprites.svg",
     id_prefix: "",
