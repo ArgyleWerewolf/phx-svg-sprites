@@ -6,7 +6,7 @@ defmodule Mix.Tasks.PhoenixSvgSprites do
     mix svg_sprite_sheet [options]
 
   Options:
-    --dirs        Comma-separated directories to search for SVGs (default: "assets/svgs")
+    --dirs        Comma-separated directories to search for SVGs (default: "assets/svg_sprites")
     --output-dir  Output directory (default: "priv/static/assets/")
     --output-file Output filename (default: "sprites.svg")
     --id-prefix   Prefix for the output filename and SVG IDs (default: "")
