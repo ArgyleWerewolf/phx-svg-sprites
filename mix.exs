@@ -4,7 +4,7 @@ defmodule PhoenixSvgSprites.MixProject do
   def project do
     [
       app: :phoenix_svg_sprites,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() in [:prod],
       deps: deps(),
