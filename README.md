@@ -80,7 +80,7 @@ mix phoenix_svg_sprites --id-prefix "social"
 
 ### Dynamic Attributes
 
-Pass any valid SVG attributes, including Phoenix DOM elemenbt bindings and data attributes:
+Pass any valid SVG attributes, including Phoenix DOM element bindings and data attributes:
 
 ```Elixir
 <.sprite
